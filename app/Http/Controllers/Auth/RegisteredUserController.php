@@ -19,7 +19,10 @@ class RegisteredUserController extends Controller
      */
     public function create(): View
     {
-        return view('auth.register');
+       
+        $adminExists = User::where('user_type', 1)->exists();
+
+        return view('auth.register', ['adminExists' => $adminExists]);
     }
 
     /**
@@ -33,12 +36,14 @@ class RegisteredUserController extends Controller
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'user_type' => ['boolean'],
         ]);
 
         $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
+            'user_type' => $request->is_admin ? 1 : 0,
         ]);
 
         event(new Registered($user));
