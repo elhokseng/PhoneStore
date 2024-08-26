@@ -1,176 +1,57 @@
-{{-- <header class="bg-white border-b border-gray-200 dark:bg-gray-900">
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full">
-        <!-- Your existing navbar code -->
-        <div class="container mx-auto flex flex-wrap items-center justify-between p-4">
-            <header class="bg-white border-b border-gray-200 dark:bg-gray-900">
-                <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full">
-                    <div class="container mx-auto flex flex-wrap items-center justify-between p-4">
-                        <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">    
-                            <img src="logo/phonestore_logo.webp" class="h-8" alt="PhoneStore Logo" />
-                            <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mobile store</span>
-                        </a>
-                        <div class="flex md:hidden">
-                            <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
-                                <span class="sr-only">Open main menu</span>
-                                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="hidden w-full md:flex md:w-auto md:order-1 items-center justify-between" id="navbar-language">
-                            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                                <li>
-                                    <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                                </li>
-                                <li class="hidden md:flex md:items-center md:space-x-4 md:order-2">
-                                    <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
-                                        <div class="inline-flex items-center">
-                                            <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900">
-                                                <path fill="#b22234" d="M0 0h7410v3900H0z"/>
-                                                <path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/>
-                                                <path fill="#3c3b6e" d="M0 0h2964v2100H0z"/>
-                                                <g fill="#fff">
-                                                    <g id="d">
-                                                        <g id="c">
-                                                            <g id="e">
-                                                                <g id="b">
-                                                                    <path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/>
-                                                                    <use xlink:href="#a" y="420"/>
-                                                                    <use xlink:href="#a" y="840"/>
-                                                                    <use xlink:href="#a" y="1260"/>
-                                                                </g>
-                                                                <use xlink:href="#a" y="1680"/>
-                                                            </g>
-                                                            <use xlink:href="#b" x="247" y="210"/>
-                                                        </g>
-                                                        <use xlink:href="#c" x="494"/>
-                                                    </g>
-                                                    <use xlink:href="#d" x="988"/>
-                                                    <use xlink:href="#c" x="1976"/>
-                                                    <use xlink:href="#e" x="2470"/>
-                                                </g>
-                                            </svg>
-                                            English (US)
-                                        </div>
-                                    </a>
-                                </li>
-                                <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
-                                    <div class="px-12">
-                                        @if (Route::has('login'))
-                                            <nav class="flex items-center space-x-4">
-                                                @auth
-                                                    <a href="{{ url('/dashboard') }}" class="text-gray-900 dark:text-white">Dashboard</a>
-                                                @else
-                                                    <a href="{{ route('login') }}" class="text-gray-900 dark:text-white">Log in</a>
-            
-                                                    @if (Route::has('register'))    
-                                                        <a href="{{ route('register') }}" class="text-gray-900 dark:text-white">Register</a>
-                                                    @endif
-                                                @endauth
-                                            </nav>
-                                        @endif
-                                    </div>
-                                    <li class="sm:hidden">
-                                        @if (Route::has('login'))
-                                            <nav class="flex items-center space-x-4">
-                                                @auth
-                                                    <a href="{{ url('/dashboard') }}" class="text-gray-900 dark:text-white">Dashboard</a>
-                                                @else
-                                                    <a href="{{ route('login') }}" class="text-gray-900 dark:text-white">Log in</a>
-            
-                                                    @if (Route::has('register'))
-                                                        <a href="{{ route('register') }}" class="text-gray-900 dark:text-white">Register</a>
-                                                    @endif
-                                                @endauth
-                                            </nav>
-                                        @endif
-                                    </li>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-        
-            <!-- Script to enable dropdown functionality -->
-            <script>
-                document.addEventListener('DOMContentLoaded', function () {
-                    const dropdownToggle = document.querySelector('[data-dropdown-toggle="language-dropdown-menu"]');
-                    const dropdownMenu = document.getElementById('language-dropdown-menu');
-        
-                    dropdownToggle.addEventListener('click', function () {
-                        dropdownMenu.classList.toggle('hidden');
-                    });
-                });
-            </script>   
-        </div>
-    </nav>
-</header> --}}
-<!-- resources/views/components/navbar.blade.php -->
 <header class="bg-white border-b border-gray-200 dark:bg-gray-900">
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 w-full">
-        <div class="container mx-auto flex flex-wrap items-center justify-between p-4">
-            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">    
-                <img src="logo/phonestore_logo.webp" class="h-8" alt="PhoneStore Logo" />
-                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mobile store</span>
-            </a>
-            <div class="flex md:hidden">
-                <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-                    </svg>
-                </button>
-            </div>
-            <div class="hidden w-full md:flex md:w-auto md:order-1 items-center justify-between" id="navbar-language">
-                <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
-                        <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-                    </li>
-                    <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
-                        <div class="px-12">
-                            @if (Route::has('login'))
-                                <nav class="flex items-center space-x-4">
-                                    @auth
-                                        <a href="{{ url('/dashboard') }}" class="text-gray-900 dark:text-white">{{ Auth::user()->name }}</a>
-                                    @else
-                                        <a href="{{ route('login') }}" class="text-gray-900 dark:text-white">Log in</a>
-
-                                        @if (Route::has('register'))    
-                                            <a href="{{ route('register') }}" class="text-gray-900 dark:text-white">Register</a>
-                                        @endif
-                                    @endauth
-                                </nav>
-                            @endif
-                        </div>
-                    </div>
-                </ul>
-                
-            </div>
+    <nav class="flex items-center justify-between p-4 bg-gray-100">
+        <div class="flex items-center">
+            <img src="logo/phonestore_logo.webp" alt="Mobile Store Logo" class="h-8 w-8 mr-2">
+            <span class="font-bold text-xl">Mobile Store</span>
         </div>
+        <!-- Hamburger Menu Button -->
+        <div class="lg:hidden">
+            <button id="nav-toggle" class="text-gray-700 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                </svg>
+            </button>
+        </div>
+        <!-- Navigation Links -->
+        <ul id="nav-menu" class="hidden lg:flex lg:space-x-12 mr-24 flex-col lg:flex-row items-center justify-center lg:items-center bg-gray-100 lg:bg-transparent w-full lg:w-auto p-4 lg:p-0 absolute lg:relative top-16 left-0 lg:top-0 lg:left-auto shadow-lg lg:shadow-none z-50 lg:z-auto">
+            <li><a href="#" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">Home</a></li>
+            <li><a href="#" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">About</a></li>
+            <li><a href="#" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">Services</a></li>
+            <li><a href="#" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">Pricing</a></li>
+            <li><a href="#" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">Contact</a></li>
+            <li class="relative">
+                <button id="admin-toggle" class="text-center text-gray-700 hover:text-blue-500 lg:hover:bg-transparent hover:bg-gray-200 py-2 lg:py-0 block w-full">{{ Auth::user()->name ?? 'Welcome' }}</button>
+                <!-- Dropdown Menu -->
+                <div id="admin-dropdown" class="hidden absolute bg-white shadow-lg border border-gray-200 dark:bg-gray-800 dark:border-gray-600 right-0 mt-2 w-48 z-10">
+                    <a href="{{ route('profile.edit') }}" class="block px-4 py-2 text-gray-700 bg-gray-100 rounded hover:bg-gray-200 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-center">Profile</a>
+                    <!-- Authentication -->
+                    <form method="POST" action="{{ route('logout') }}">
+                        @csrf
+                        <button type="submit" class="w-full text-left px-4 py-2 text-gray-700 bg-gray-100 rounded hover:bg-gray-200 dark:text-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600 text-center">
+                            Log Out
+                        </button>
+                    </form>
+                </div>
+            </li>
+        </ul>
     </nav>
 </header>
+
+<script>
+    // Toggle the visibility of the dropdown when the Admin button is clicked
+    const adminToggle = document.getElementById('admin-toggle');
+    const adminDropdown = document.getElementById('admin-dropdown');
+
+    adminToggle.addEventListener('click', () => {
+        adminDropdown.classList.toggle('hidden');
+    });
+
+    // Close the dropdown if clicked outside
+    document.addEventListener('click', function(event) {
+        const isClickInside = adminToggle.contains(event.target) || adminDropdown.contains(event.target);
+
+        if (!isClickInside) {
+            adminDropdown.classList.add('hidden');
+        }
+    });
+</script>

@@ -17,7 +17,7 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
     </head>
     <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
+            <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
             <!-- Include the Navbar -->
             <x-navbar />
             <x-leftsidebar />
@@ -26,7 +26,7 @@
             <main>
                 <div class="container mx-auto">
                     <!-- Your welcome page content here -->
-                    <h1 class="text-center text-white">Welcome to Mobile Store</h1>
+                    <h1 class="text-center text-success">welcome admin page</h1>
                 </div>
             </main>
         </div>

@@ -1,4 +1,3 @@
-<!-- resources/views/components/left-sidebar.blade.php -->
 <aside class="w-64 bg-gray-800 text-white h-screen fixed">
     <div class="flex flex-col h-full">
         <nav class="flex-1 space-y-2">
